@@ -1,7 +1,7 @@
 # QUAID CORE
 ### Designed by Muhammad Mohsin siddiqui
-My name is Muhammad Mohsin Siddiqui,I am Software Engineeirng student in Usman Institute of Technology, I am working on RISC-V architechture and I am perfectly done 
-the software of single cycle core. \
+My name is Muhammad Mohsin Siddiqui,I am Software Engineeirng student in Usman Institute of Technology, I am working on RISC-V architechture and I am perfectly made 
+the software of my single cycle Quaid core. \
 First of all get started by cloning this repository on your machine.  
 ```ruby
 git clone https://github.com/siddiquimohsin/chisel.git
