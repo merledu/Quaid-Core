@@ -1,0 +1,16 @@
+package datapath
+import chisel3._
+import chisel3.util.Cat
+class ALUcontrol extends Module{
+	val io = IO(new Bundle(
+	val ALUop = Input(UInt(3.W))
+	val Func7 = Input(UInt(1.W))
+	val Func3 = Input(UInt(3.W))
+	val Ctrl = Output(UInt(5.W))
+)}
+	when(io.ALUop === "b000".U){
+	when(io.Func7 === 0.U | 1.U){
+	io.Ctrl = Cat(0.U, io.Func7, io.Func3)
+}
+} 
+}
