@@ -23,9 +23,9 @@ Then perform the following step
 ```ruby
 cd Quaid/src/main/scala/datapath
 ```
-Open **InstructionMem.scala** with this command. You can also manually go into the above path and open the file in your favorite text editor.
+Open **InstructionMemory.scala** with this command. You can also manually go into the above path and open the file in your favorite text editor.
 ```ruby
-open InstructionMem.scala
+open InstructionMemory.scala
 ```
 Find the following line
 ``` python
