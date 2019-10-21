@@ -19,7 +19,7 @@ Each instruction's hexadecimal code must be on seperate line as following. This 
 ```
 Then perform the following step
 ```ruby
-cd Quaid_core/src/main/scala/datapath
+cd Quaid/src/main/scala/datapath
 ```
 Open **InstructionMem.scala** with this command. You can also manually go into the above path and open the file in your favorite text editor.
 ```ruby
@@ -32,7 +32,7 @@ loadMemoryFromFile(mem, "/Users/mbp/Desktop/data.txt")
 Change the .txt file path to match your file that you created above storing your own program instructions.\
 After setting up the InstructionMem.scala file, go inside the Nano-H folder.
 ```ruby
-cd practice/Quaid_core
+cd practice/Quaid
 ```
 And enter
 ```ruby
@@ -40,15 +40,15 @@ sbt
 ```
 When the terminal changes to this type
 ```ruby
-sbt:Quaid_core>
+sbt:Quaid>
 ```
 Enter this command
 ```ruby
-sbt:Quaid_core> test:runMain datapath.Launcher Top
+sbt:Quaid> test:runMain datapath.Launcher Top
 ```
 After you get success
 ```ruby
-sbt:Quaid_core> test:runMain datapath.Launcher Top --backend-name verilator
+sbt:Quaid> test:runMain datapath.Launcher Top --backend-name verilator
 ```
 After success you will get a folder ***test_run_dir*** on root of your folder. Go into the examples folder inside.\
 There you will find the folder named Top. Enter in it and you can find the Top.vcd file which you visualise on **gtkwave** to\
