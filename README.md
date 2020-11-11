@@ -32,7 +32,7 @@ Find the following line
 loadMemoryFromFile(mem, "/Users/mbp/Desktop/data.txt")
 ```
 Change the .txt file path to match your file that you created above storing your own program instructions.\
-After setting up the InstructionMem.scala file, go inside the Nano-H folder.
+After setting up the InstructionMemory.scala file, go inside the Quaid folder.
 ```ruby
 cd practice/Quaid
 ```
